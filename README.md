@@ -40,3 +40,13 @@ cd food-expiry-tracker
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+
+## Responsible AI Considerations
+
+- **Privacy**: All processing is local-first — no images or personal data are sent to any cloud.
+- **Fairness & Bias**: Rule-based OCR + heuristic date parsing avoids model bias; works equally on all label formats.
+- **Transparency**: Every expiry detection shows confidence score and raw text match.
+- **Ethics**: No harmful use — goal is only to reduce food waste and promote sustainability.
+- **Limitations**: OCR may struggle with very poor lighting/handwriting — manual entry fallback provided.
