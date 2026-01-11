@@ -2,7 +2,7 @@
 
 An intelligent local-first tool that helps reduce household food waste by automatically reading expiry dates from food packaging photos, maintaining smart inventory, sending timely alerts, and providing waste analytics & sustainability insights.
 
-![Demo - Expiry Detection](app.jpeg)  
+![Demo - Expiry Detection](app_pic.jpeg)  
 *(Add 2–3 nice screenshots here after running the app)*
 
 ## ✨ Key Features
