@@ -32,28 +32,8 @@ An intelligent local-first tool that helps reduce household food waste by automa
 
 ## System Architecture
 
+****<img width="586" height="511" alt="image" src="https://github.com/user-attachments/assets/69e16416-83ab-44a2-8da4-0b3ac20cde4e" />
 
-┌─────────────────────────────────────────────────────────────┐
-│                  User Interface Layer                        │
-│   CLI (main.py)           Streamlit Web UI (app.py)          │
-└───────────────────────────────┬─────────────────────────────┘
-                                │
-┌───────────────────────────────▼─────────────────────────────┐
-│             Application Logic Layer                         │
-│   - Command routing & workflow                              │
-│   - Error handling & user feedback                          │
-└───────────┬─────────────┬─────────────┬─────────────┬───────┘
-            │             │             │             │
-   ┌────────▼────┐ ┌──────▼─────┐ ┌─────▼─────┐ ┌─────▼─────┐
-   │ OCR Engine  │ │  Database  │ │  Alerts   │ │ Analytics │
-   └──────┬──────┘ └─────┬──────┘ └─────┬─────┘ └─────┬─────┘
-          │              │              │               │
-┌─────────▼──────────────▼──────────────▼───────────────▼────────┐
-│                       Data Layer                               │
-│                   SQLite (database.db)                         │
-│     ├─ food_items     ├─ alerts     ├─ food_sharing          │
-│     └─ statistics                                               │
-└─────────────────────────────────────────────────────────────────┘
 
 
 
