@@ -26,6 +26,10 @@ An intelligent local-first tool that helps reduce household food waste by automa
 
 
 
+
+
+
+
 ## System Architecture
 
 
@@ -50,6 +54,9 @@ An intelligent local-first tool that helps reduce household food waste by automa
 │     ├─ food_items     ├─ alerts     ├─ food_sharing          │
 │     └─ statistics                                               │
 └─────────────────────────────────────────────────────────────────┘
+
+
+
 
 
 
